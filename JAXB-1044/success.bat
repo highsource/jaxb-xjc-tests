@@ -1,0 +1,1 @@
+xjc a.xsd -b a.xjb

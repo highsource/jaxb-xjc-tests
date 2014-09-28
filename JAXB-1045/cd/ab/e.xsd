@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:e" elementFormDefault="qualified"
+	xmlns:e="urn:e"
+	xmlns:d="urn:d">
+
+	<import namespace="urn:d" schemaLocation="d.xsd"/>
+	<element name="e" type="e:EType"/>
+	<complexType name="EType">
+		<sequence>
+			<element name="s" type="string"/>
+			<element name="d" type="d:DType"/>
+		</sequence>
+	</complexType>
+</schema>

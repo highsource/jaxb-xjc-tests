@@ -1,0 +1,1 @@
+xjc http://www.ab.org/a.xsd -catalog catalog.cat

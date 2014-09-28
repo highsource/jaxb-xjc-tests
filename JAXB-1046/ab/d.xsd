@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:d" elementFormDefault="qualified"
+	xmlns:d="urn:d"
+	xmlns:e="urn:e">
+
+	<element name="d" type="d:DType"/>
+	<complexType name="DType">
+		<sequence>
+			<element name="s" type="string"/>
+		</sequence>
+	</complexType>
+</schema>

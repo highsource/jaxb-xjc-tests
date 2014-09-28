@@ -1,0 +1,1 @@
+xjc ab/c.xsd -catalog catalog.cat
