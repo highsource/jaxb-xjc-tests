@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jaxb-xjc-tests-core</artifactId>
+	<packaging>jar</packaging>
+	<name>JAXB XJC Tests Core</name>
+	<parent>
+		<groupId>org.hisrc.xml.bind</groupId>
+		<artifactId>jaxb-xjc-tests-project</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<!--dependency>
+			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<artifactId>jaxb2-basics-runtime</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<artifactId>jaxb2-basics-tools</artifactId>
+		</dependency-->
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<!--dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-xjc</artifactId>
+			<scope>provided</scope>
+		</dependency-->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-xjc</artifactId>
+        </dependency>
+	</dependencies>
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+</project>

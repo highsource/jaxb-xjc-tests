@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:c" elementFormDefault="qualified"
+	xmlns:c="urn:c"
+	xmlns:d="urn:d">
+
+	<import namespace="urn:d" schemaLocation="http://www.ab.org/d.xsd"/>
+	<element name="c" type="c:CType"/>
+	<complexType name="CType">
+		<sequence>
+			<element name="s" type="string"/>
+			<!--element name="a" type="a:AType"/-->
+			<element name="d" type="d:DType"/>
+		</sequence>
+	</complexType>
+</schema>
